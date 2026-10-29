@@ -1,23 +1,22 @@
-Sivon — asset notice
+Sivon - third-party audio notice
 
-Code
-  All source files and compiled classes are released under CC0 1.0 Universal (see LICENSE).
+Sivon is a free, open-source fan work (a derivative/fan creation). Its source code is released
+under CC0 1.0 Universal. It is not affiliated with, endorsed by, or supported by any of the
+original rights holders.
 
-Audio assets — NOT licensed, NOT covered by CC0
+The audio files bundled in this jar are NOT covered by that license and are NOT licensed by this
+project:
+
   assets/sivon/sounds/music/rain_love.ogg
-      "Rain Love (Sivon Edition)" — original song by Rainie Yang, credited 古岛斐 / 杨丞琳.
-      Rights remain with the original authors and rights holders.
+      "Rain Love (Sivon Edition)" - the original song and lyrics belong to their respective
+      authors, credited here as 古岛斐 / 杨丞琳. All rights remain with the original rights holders.
+
   assets/sivon/sounds/music/ice_love.ogg
-      "Ice Love" — author unknown. Rights remain with the original rights holder.
+      "Ice Love" - author unknown. All rights remain with the original rights holder.
+
   assets/sivon/sounds/block/ice.ogg
-      Ice sound effect — source unknown. Rights remain with the original rights holder.
+      Ice sound effect - source unknown. All rights remain with the original rights holder.
 
-  These three files ship with the mod so that the discs and the ice sound work out of the box.
-  No license is granted for them and no commercial use is intended. If you hold the rights to
-  any of them and want it removed, open an issue at the repository and it will be dropped from
-  the next build.
-
-素材声明
-  源码：以 CC0 1.0 发布（见 LICENSE）。
-  音频（雨爱司凤版 / 冰爱 / 冰冰冰音效）：不在 CC0 覆盖范围内，本项目不为其授予任何许可；
-  权利归原作者与权利人所有。若你持有相应权利并要求下架，请在仓库提 issue，下一版构建即移除。
+These files are bundled so that the discs and the ice sound work out of the box. No commercial
+use is intended or granted. If you hold the rights to any of them and want it removed, open an
+issue at https://github.com/Huziyang520/Sivon/issues and it will be dropped from the next build.
