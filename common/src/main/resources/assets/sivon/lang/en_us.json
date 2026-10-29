@@ -8,5 +8,6 @@
   "subtitles.sivon.block.ice": "Ice rings",
   "gui.sivon.title": "Sivon",
   "gui.sivon.ice_sounds": "Replace ice block sounds",
-  "gui.sivon.ice_sounds.tooltip": "Play the Sivon ice sound for ice, packed ice, blue ice and frosted ice."
+  "gui.sivon.ice_sounds.tooltip": "Play the Sivon ice sound for ice, packed ice, blue ice and frosted ice.",
+  "modmenu.sivon.backup": "Backup feedback"
 }

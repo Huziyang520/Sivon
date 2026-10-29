@@ -38,6 +38,8 @@ public final class Sivon {
         initialized = true;
 
         iceSound = REGISTRY.sound("block.ice");
+        REGISTRY.sound("music_disc.rain_love");
+        REGISTRY.sound("music_disc.ice_love");
         SivonConfig.register();
         rainLove = REGISTRY.item("rain_love", DiscApi.discFactory(RAIN_LOVE_SONG));
         iceLove = REGISTRY.item("ice_love", DiscApi.discFactory(ICE_LOVE_SONG));

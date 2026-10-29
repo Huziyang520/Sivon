@@ -8,7 +8,7 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://www.curseforge.com/minecraft/mc-mods/sivon",
+        "homepage": "https://github.com/Huziyang520/Sivon",
         "issues": "https://github.com/Huziyang520/Sivon/issues"
     },
     "license": "${license}",
@@ -27,6 +27,13 @@
             "file": "META-INF/jars/discapi-${discapi_version}-fabric-${minecraft_version}.jar"
         }
     ],
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.sivon.backup": "https://issue.mengcai.online/"
+            }
+        }
+    },
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
         "keenlib": ">=${keenlib_version}",

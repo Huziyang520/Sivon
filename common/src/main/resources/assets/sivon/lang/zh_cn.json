@@ -8,5 +8,6 @@
   "subtitles.sivon.block.ice": "冰块作响",
   "gui.sivon.title": "司凤",
   "gui.sivon.ice_sounds": "替换冰块音效",
-  "gui.sivon.ice_sounds.tooltip": "冰、浮冰、蓝冰、霜冰的方块音效改用司凤的冰冰冰。"
+  "gui.sivon.ice_sounds.tooltip": "冰、浮冰、蓝冰、霜冰的方块音效改用司凤的冰冰冰。",
+  "modmenu.sivon.backup": "备用反馈地址"
 }
