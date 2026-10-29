@@ -33,7 +33,7 @@
         "fabricloader": ">=${fabric_loader_version}",
         "keenlib": ">=${keenlib_version}",
         "discapi": ">=${discapi_version}",
-        "minecraft": "~${minecraft_version}",
+        "minecraft": "${minecraft_version_range_fabric}",
         "java": ">=${java_version}"
     }
 }
