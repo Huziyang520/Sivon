@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "discapi:item/disc_template",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -14725492
+      },
+      {
+        "type": "minecraft:constant",
+        "value": -5711617
+      }
+    ]
+  }
+}

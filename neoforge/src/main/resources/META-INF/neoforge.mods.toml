@@ -1,0 +1,37 @@
+license = "${license}"
+[[mods]]
+modId = "${mod_id}"
+version = "${version}"
+displayName = "${mod_name}"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/sivon"
+issueTrackerURL = "https://github.com/Huziyang520/Sivon/issues"
+iconFile = "${mod_id}.png"
+credits = "${credits}"
+authors = "${mod_author}"
+description = '''${description}'''
+[[mixins]]
+config = "${mod_id}.mixins.json"
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neoforge_version},)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.${mod_id}]]
+modId = "keenlib"
+type = "required"
+versionRange = "[${keenlib_version},)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.${mod_id}]]
+modId = "discapi"
+type = "required"
+versionRange = "[${discapi_version},)"
+ordering = "AFTER"
+side = "BOTH"

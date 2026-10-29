@@ -1,0 +1,12 @@
+{
+  "item.sivon.rain_love": "Rain Love",
+  "item.sivon.ice_love": "Ice Love",
+  "item.sivon.rain_love.artist": "Artist: Gudaofei, Rainie Yang",
+  "itemGroup.sivon.main": "Sivon",
+  "jukebox_song.sivon.rain_love": "Rain Love (Sivon Edition)",
+  "jukebox_song.sivon.ice_love": "Ice Love",
+  "subtitles.sivon.block.ice": "Ice rings",
+  "gui.sivon.title": "Sivon",
+  "gui.sivon.ice_sounds": "Replace ice block sounds",
+  "gui.sivon.ice_sounds.tooltip": "Play the Sivon ice sound for ice, packed ice, blue ice and frosted ice."
+}

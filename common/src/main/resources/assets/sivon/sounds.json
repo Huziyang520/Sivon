@@ -1,0 +1,26 @@
+{
+  "block.ice": {
+    "subtitle": "subtitles.sivon.block.ice",
+    "sounds": [
+      {
+        "name": "sivon:block/ice"
+      }
+    ]
+  },
+  "music_disc.rain_love": {
+    "sounds": [
+      {
+        "name": "sivon:music/rain_love",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.ice_love": {
+    "sounds": [
+      {
+        "name": "sivon:music/ice_love",
+        "stream": true
+      }
+    ]
+  }
+}
