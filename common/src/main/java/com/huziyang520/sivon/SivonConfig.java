@@ -3,7 +3,6 @@ package com.huziyang520.sivon;
 import com.huziyang520.keenlib.config.KeenConfig;
 import com.huziyang520.keenlib.config.KeenConfigApi;
 import com.huziyang520.keenlib.text.KeenText;
-import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 
 public final class SivonConfig {
@@ -61,7 +60,7 @@ public final class SivonConfig {
     }
 
     private static Component label(String key, String fallback) {
-        return KeenText.trans("gui.sivon.ice_name", "冰冰冰").withStyle(ChatFormatting.OBFUSCATED)
+        return KeenText.trans("gui.sivon.ice_name", "冰冰冰")
                 .append(" ").append(KeenText.trans(key, fallback));
     }
 }
