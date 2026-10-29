@@ -7,7 +7,7 @@ sourceSets.main.java.setSrcDirs([rootProject.file('../../common/src/main/java'),
                                  rootProject.file('../../fabric/src/main/java')])
 sourceSets.main.resources.setSrcDirs([rootProject.file('../../common/src/main/resources'),
                                       rootProject.file('../../fabric/src/main/resources'),
-                                      rootProject.file('src/main/resources')])
+                                      project.file('src/main/resources')])
 sourceSets.main.java.exclude('com/huziyang520/sivon/mixin/MixinBlockBehaviour.java')
 
 dependencies {
