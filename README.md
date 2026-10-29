@@ -23,7 +23,7 @@ The ice sound replacement can be turned off:
 
 ### License
 
-Released under [CC0 1.0 Universal](LICENSE).
+Source code is released under [CC0 1.0 Universal](LICENSE). The bundled music and sound files are **not** licensed by this project and are not covered by CC0 — see [NOTICE](NOTICE).
 
 ### Links
 
@@ -55,7 +55,7 @@ Released under [CC0 1.0 Universal](LICENSE).
 
 ### 许可证
 
-以 [CC0 1.0 Universal](LICENSE) 发布。
+源码以 [CC0 1.0 Universal](LICENSE) 发布。随包的音频（两张唱片与冰块音效）**不**由本项目授权，也不在 CC0 覆盖范围内，详见 [NOTICE](NOTICE)。
 
 ### 链接
 

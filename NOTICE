@@ -1,0 +1,23 @@
+Sivon — asset notice
+
+Code
+  All source files and compiled classes are released under CC0 1.0 Universal (see LICENSE).
+
+Audio assets — NOT licensed, NOT covered by CC0
+  assets/sivon/sounds/music/rain_love.ogg
+      "Rain Love (Sivon Edition)" — original song by Rainie Yang, credited 古岛斐 / 杨丞琳.
+      Rights remain with the original authors and rights holders.
+  assets/sivon/sounds/music/ice_love.ogg
+      "Ice Love" — author unknown. Rights remain with the original rights holder.
+  assets/sivon/sounds/block/ice.ogg
+      Ice sound effect — source unknown. Rights remain with the original rights holder.
+
+  These three files ship with the mod so that the discs and the ice sound work out of the box.
+  No license is granted for them and no commercial use is intended. If you hold the rights to
+  any of them and want it removed, open an issue at the repository and it will be dropped from
+  the next build.
+
+素材声明
+  源码：以 CC0 1.0 发布（见 LICENSE）。
+  音频（雨爱司凤版 / 冰爱 / 冰冰冰音效）：不在 CC0 覆盖范围内，本项目不为其授予任何许可；
+  权利归原作者与权利人所有。若你持有相应权利并要求下架，请在仓库提 issue，下一版构建即移除。
