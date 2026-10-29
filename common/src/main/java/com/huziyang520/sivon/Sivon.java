@@ -1,6 +1,7 @@
 package com.huziyang520.sivon;
 
 import com.huziyang520.discapi.DiscApi;
+import com.huziyang520.keenlib.loot.KeenLoot;
 import com.huziyang520.keenlib.registry.KeenRegistry;
 import com.huziyang520.keenlib.text.KeenText;
 import net.minecraft.core.Holder;
@@ -9,7 +10,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.JukeboxSong;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.storage.loot.BuiltInLootTables;
 
 public final class Sivon {
 
@@ -21,7 +22,6 @@ public final class Sivon {
     private static Holder<SoundEvent> iceSound;
     private static Holder<Item> rainLove;
     private static Holder<Item> iceLove;
-    private static SoundType iceSoundType;
     private static boolean initialized;
 
     private Sivon() {
@@ -51,14 +51,15 @@ public final class Sivon {
                     output.accept(new ItemStack(iceLove.value()));
                 });
 
-        Constants.LOG.info("Sivon registered ice sound and 2 discs");
+        KeenLoot.add(BuiltInLootTables.ABANDONED_MINESHAFT, iceLove, 3, 1, 1);
+        KeenLoot.add(BuiltInLootTables.SIMPLE_DUNGEON, iceLove, 2, 1, 1);
+        KeenLoot.add(BuiltInLootTables.WOODLAND_MANSION, iceLove, 2, 1, 1);
+        KeenLoot.add(BuiltInLootTables.STRONGHOLD_CORRIDOR, rainLove, 2, 1, 1);
+        KeenLoot.add(BuiltInLootTables.SHIPWRECK_TREASURE, rainLove, 1, 1, 1);
+        KeenLoot.add(BuiltInLootTables.ANCIENT_CITY, rainLove, 1, 1, 1);
     }
 
-    public static SoundType iceSoundType() {
-        if (iceSoundType == null) {
-            SoundEvent event = iceSound.value();
-            iceSoundType = new SoundType(1.0F, 1.0F, event, event, event, event, event);
-        }
-        return iceSoundType;
+    public static SoundEvent iceSound() {
+        return iceSound.value();
     }
 }

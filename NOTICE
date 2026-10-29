@@ -1,9 +1,5 @@
 Sivon - third-party audio notice
 
-Sivon is a free, open-source fan work (a derivative/fan creation). Its source code is released
-under CC0 1.0 Universal. It is not affiliated with, endorsed by, or supported by any of the
-original rights holders.
-
 The audio files bundled in this jar are NOT covered by that license and are NOT licensed by this
 project:
 
@@ -12,7 +8,7 @@ project:
       authors, credited here as 古岛斐 / 杨丞琳. All rights remain with the original rights holders.
 
   assets/sivon/sounds/music/ice_love.ogg
-      "Ice Love" - author unknown. All rights remain with the original rights holder.
+      "Ice Love" - published by 六伯陆拾六 on Bilibili. All rights remain with the original author.
 
   assets/sivon/sounds/block/ice.ogg
       Ice sound effect - source unknown. All rights remain with the original rights holder.

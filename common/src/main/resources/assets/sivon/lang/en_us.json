@@ -9,5 +9,13 @@
   "gui.sivon.title": "Sivon",
   "gui.sivon.ice_sounds": "Replace ice block sounds",
   "gui.sivon.ice_sounds.tooltip": "Play the Sivon ice sound for ice, packed ice, blue ice and frosted ice.",
-  "modmenu.sivon.backup": "Backup feedback"
+  "modmenu.sivon.backup": "Backup feedback",
+  "gui.sivon.sound_base_rate": "Base pitch",
+  "gui.sivon.sound_base_rate.tooltip": "Playback speed the ice sound starts from.",
+  "gui.sivon.sound_rate_up": "Pitch offset up",
+  "gui.sivon.sound_rate_up.tooltip": "Upper bound of the random pitch offset.",
+  "gui.sivon.sound_rate_down": "Pitch offset down",
+  "gui.sivon.sound_rate_down.tooltip": "Lower bound of the random pitch offset.",
+  "gui.sivon.ice_name": "冰冰冰",
+  "item.sivon.ice_love.artist": "Artist: Liuboliushiliu (Bilibili)"
 }

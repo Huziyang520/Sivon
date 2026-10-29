@@ -20,8 +20,6 @@ plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
 }
 
-rootProject.name = 'Sivon'
-includeBuild('build-logic')
-include('common')
+rootProject.name = '司凤-26.4-Beta'
+includeBuild('../../build-logic')
 include('fabric')
-include('neoforge')
