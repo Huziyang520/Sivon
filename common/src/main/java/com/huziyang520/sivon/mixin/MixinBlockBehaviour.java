@@ -11,9 +11,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/**
- * Replaces the sound type of every block in #minecraft:ice (ice, packed ice, blue ice, frosted ice).
- */
 @Mixin(BlockBehaviour.class)
 public abstract class MixinBlockBehaviour {
 

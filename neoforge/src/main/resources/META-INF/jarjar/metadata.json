@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "com.huziyang520",
+        "artifact": "discapi"
+      },
+      "version": {
+        "range": "[0.1.0,)",
+        "artifactVersion": "0.1.0"
+      },
+      "path": "META-INF/jarjar/discapi-0.1.0-neoforge-26.3.jar",
+      "isObfuscated": false
+    }
+  ]
+}

@@ -34,8 +34,14 @@ neoForge {
 dependencies {
     compileOnly(rootProject.files("libs/keenlib-${keenlib_version}-neoforge-${minecraft_version}.jar"))
     compileOnly(rootProject.files("libs/discapi-${discapi_version}-neoforge-${minecraft_version}.jar"))
-    // DiscAPI ships inside this jar, so players only install KeenLib + Sivon
-    jarJar(rootProject.files("libs/discapi-${discapi_version}-neoforge-${minecraft_version}.jar"))}
+}
+
+// DiscAPI ships inside this jar with hand-written jarjar metadata, so the version range stays semantic
+tasks.named('jar', Jar) {
+    from(rootProject.files("libs/discapi-${discapi_version}-neoforge-${minecraft_version}.jar")) {
+        into 'META-INF/jarjar'
+    }
+}
 
 def loaderAttribute = Attribute.of('io.github.mcgradleconventions.loader', String)
 ['apiElements', 'runtimeElements', 'sourcesElements', 'javadocElements'].each { variant ->

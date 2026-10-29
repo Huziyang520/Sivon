@@ -4,9 +4,6 @@ import com.huziyang520.keenlib.config.KeenConfig;
 import com.huziyang520.keenlib.config.KeenConfigApi;
 import com.huziyang520.keenlib.text.KeenText;
 
-/**
- * Sivon options, rendered by the KeenLib config screen when Cloth Config is installed.
- */
 public final class SivonConfig {
 
     public static final String ICE_SOUNDS = "ice_sounds";
@@ -23,9 +20,6 @@ public final class SivonConfig {
                 .submit();
     }
 
-    /**
-     * Read live on every query so the toggle applies without restarting the game.
-     */
     public static boolean iceSoundsEnabled() {
         return KeenConfig.create(Constants.MOD_ID).getBoolean(ICE_SOUNDS, true);
     }

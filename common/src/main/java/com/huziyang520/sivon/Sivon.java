@@ -11,9 +11,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.JukeboxSong;
 import net.minecraft.world.level.block.SoundType;
 
-/**
- * Registers the ice block sound and the two music discs.
- */
 public final class Sivon {
 
     private static final KeenRegistry REGISTRY = KeenRegistry.of(Constants.MOD_ID);
@@ -55,9 +52,6 @@ public final class Sivon {
         Constants.LOG.info("Sivon registered ice sound and 2 discs");
     }
 
-    /**
-     * Built lazily because NeoForge resolves sound events after the mod constructor.
-     */
     public static SoundType iceSoundType() {
         if (iceSoundType == null) {
             SoundEvent event = iceSound.value();
