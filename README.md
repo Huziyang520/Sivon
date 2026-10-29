@@ -19,7 +19,7 @@ The ice sound replacement can be turned off:
 ### Requirements
 
 - **KeenLib**
-- **DiscAPI** is already bundled inside this jar.
+- **DiscAPI** is required; install it next to this mod.
 
 ### License
 
@@ -51,7 +51,7 @@ This is a free, open-source fan work. Its source code is released under [CC0 1.0
 ### 前置
 
 - **KeenLib**
-- **DiscAPI** 已内置在本 jar 内。
+- 必须安装 **DiscAPI**。
 
 ### 许可证
 

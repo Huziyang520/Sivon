@@ -8,13 +8,6 @@ dependencies {
     compileOnly(rootProject.files("libs/keenlib-${keenlib_version}-fabric-${minecraft_version}.jar"))
     compileOnly(rootProject.files("libs/discapi-${discapi_version}-fabric-${minecraft_version}.jar"))}
 
-// DiscAPI ships inside this jar, so players only install KeenLib + Sivon
-tasks.named('jar', Jar) {
-    from(rootProject.file("libs/discapi-${discapi_version}-fabric-${minecraft_version}.jar")) {
-        into 'META-INF/jars'
-    }
-}
-
 loom {
     def aw = project(':common').file("src/main/resources/${mod_id}.accesswidener")
     if (aw.exists()) {

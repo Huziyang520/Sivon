@@ -22,11 +22,6 @@
     "mixins": [
         "${mod_id}.mixins.json"
     ],
-    "jars": [
-        {
-            "file": "META-INF/jars/discapi-${discapi_version}-fabric-${minecraft_version}.jar"
-        }
-    ],
     "custom": {
         "modmenu": {
             "links": {
