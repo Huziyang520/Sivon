@@ -4,9 +4,11 @@
 
 ### What it adds
 
-- **Mmusic discs**
+- **Music discs**
   - **Rain Love (Sivon Edition)** — artist: Gudaofei, Rainie Yang
-  - **Ice Love**
+  - **Ice Love** — artist: Liuboliushiliu (Bilibili)
+  - **Lava Chicken (Sivon Edition)** — artist: PathlessElm (Bilibili)
+  - **Zombies on Your Lawn (Sivon Edition)** — artist: PathlessElm (Bilibili)
 - **Ice block sounds**: ice, packed ice, blue ice and frosted ice now play the Sivon ice sound for breaking, placing, stepping, hitting and falling.
 
 ### Ice sound toggle
@@ -38,7 +40,9 @@ This is a free, open-source fan work. Its source code is released under [CC0 1.0
 
 - **唱片**
   - **雨爱（司凤版）** —— 作者：古岛斐 杨丞琳
-  - **冰爱**
+  - **冰爱** —— 作者：六伯陆拾六（B站）
+  - **Lava Chicken（司凤版）** —— 作者：PathlessElm（B站）
+  - **Zombies on Your Lawn（司凤版）** —— 作者：PathlessElm（B站）
 - **冰块音效**：冰、浮冰、蓝冰、霜冰的破坏、放置、踩踏、敲击与落地音效都换成司凤的冰冰冰。
 
 ### 冰块音效开关

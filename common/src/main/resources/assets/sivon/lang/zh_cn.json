@@ -17,5 +17,11 @@
   "gui.sivon.sound_rate_down": "向下浮动",
   "gui.sivon.sound_rate_down.tooltip": "随机速率的向下浮动下限。",
   "gui.sivon.ice_name": "冰冰冰",
-  "item.sivon.ice_love.artist": "作者：六伯陆拾六（B站）"
+  "item.sivon.ice_love.artist": "作者：六伯陆拾六（B站）",
+  "item.sivon.lava_chicken": "音乐唱片",
+  "item.sivon.lava_chicken.artist": "作者：PathlessElm（B站）",
+  "item.sivon.zombies_on_your_lawn": "音乐唱片",
+  "item.sivon.zombies_on_your_lawn.artist": "作者：PathlessElm（B站）",
+  "jukebox_song.sivon.lava_chicken": "Lava Chicken（司凤版）",
+  "jukebox_song.sivon.zombies_on_your_lawn": "Zombies on Your Lawn（司凤版）"
 }

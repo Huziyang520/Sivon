@@ -10,6 +10,14 @@ project:
   assets/sivon/sounds/music/ice_love.ogg
       "Ice Love" - published by 六伯陆拾六 on Bilibili. All rights remain with the original author.
 
+  assets/sivon/sounds/music/lava_chicken.ogg
+      "Lava Chicken (Sivon Edition)" - a cover published by PathlessElm on Bilibili. All rights
+      remain with the original rights holders.
+
+  assets/sivon/sounds/music/zombies_on_your_lawn.ogg
+      "Zombies on Your Lawn (Sivon Edition)" - a cover published by PathlessElm on Bilibili. All
+      rights remain with the original rights holders.
+
   assets/sivon/sounds/block/ice.ogg
       Ice sound effect - source unknown. All rights remain with the original rights holder.
 

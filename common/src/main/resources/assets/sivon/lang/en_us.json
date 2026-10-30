@@ -17,5 +17,11 @@
   "gui.sivon.sound_rate_down": "Pitch offset down",
   "gui.sivon.sound_rate_down.tooltip": "Lower bound of the random pitch offset.",
   "gui.sivon.ice_name": "冰冰冰",
-  "item.sivon.ice_love.artist": "Artist: Liuboliushiliu (Bilibili)"
+  "item.sivon.ice_love.artist": "Artist: Liuboliushiliu (Bilibili)",
+  "item.sivon.lava_chicken": "Music Disc",
+  "item.sivon.lava_chicken.artist": "Artist: PathlessElm (Bilibili)",
+  "item.sivon.zombies_on_your_lawn": "Music Disc",
+  "item.sivon.zombies_on_your_lawn.artist": "Artist: PathlessElm (Bilibili)",
+  "jukebox_song.sivon.lava_chicken": "Lava Chicken (Sivon Edition)",
+  "jukebox_song.sivon.zombies_on_your_lawn": "Zombies on Your Lawn (Sivon Edition)"
 }

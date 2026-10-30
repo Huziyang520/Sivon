@@ -22,5 +22,21 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.lava_chicken": {
+    "sounds": [
+      {
+        "name": "sivon:music/lava_chicken",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.zombies_on_your_lawn": {
+    "sounds": [
+      {
+        "name": "sivon:music/zombies_on_your_lawn",
+        "stream": true
+      }
+    ]
   }
 }
