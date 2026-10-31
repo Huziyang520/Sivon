@@ -25,7 +25,7 @@ The ice sound replacement can be turned off:
 
 ### License
 
-This is a free, open-source fan work. Its source code is released under [CC0 1.0 Universal](LICENSE); the bundled music and sound files are third-party audio, **not** licensed by this project and not covered by CC0 — see [NOTICE](NOTICE).
+This is a free, open-source fan work. Its source code is released under [CC0 1.0 Universal](https://github.com/Huziyang520/Sivon/blob/26.X/LICENSE); the bundled music and sound files are third-party audio, **not** licensed by this project and not covered by CC0 — see [NOTICE](https://github.com/Huziyang520/Sivon/blob/26.X/NOTICE).
 
 ### Links
 
@@ -59,7 +59,7 @@ This is a free, open-source fan work. Its source code is released under [CC0 1.0
 
 ### 许可证
 
-本项目为免费开源的二创作品，源码以 [CC0 1.0 Universal](LICENSE) 发布；随包的音乐与音效属第三方音频，**不**由本项目授权，也不在 CC0 范围内，详见 [NOTICE](NOTICE)。
+本项目为免费开源的二创作品，源码以 [CC0 1.0 Universal](https://github.com/Huziyang520/Sivon/blob/26.X/LICENSE) 发布；随包的音乐与音效属第三方音频，**不**由本项目授权，也不在 CC0 范围内，详见 [NOTICE](https://github.com/Huziyang520/Sivon/blob/26.X/NOTICE)。
 
 ### 链接
 
