@@ -15,7 +15,7 @@
 
 The ice sound replacement can be turned off:
 
-- Install **Cloth Config** → open the config screen (**Mod Menu** on Fabric, or the mod list on NeoForge) → **KeenLib → Sivon → Replace ice block sounds**.
+- Install **Cloth Config** → open the config screen (the mod list on NeoForge) → **KeenLib → Sivon → Replace ice block sounds**.
 - The setting is stored in `config/sivon.json` and applies immediately; no restart needed.
 
 ### Requirements
@@ -25,7 +25,7 @@ The ice sound replacement can be turned off:
 
 ### License
 
-This is a free, open-source fan work. Its source code is released under [CC0 1.0 Universal](https://github.com/Huziyang520/Sivon/blob/26.X/LICENSE); the bundled music and sound files are third-party audio, **not** licensed by this project and not covered by CC0 — see [NOTICE](https://github.com/Huziyang520/Sivon/blob/26.X/NOTICE).
+This is a free, open-source fan work. Its source code is released under [CC0 1.0 Universal](https://github.com/Huziyang520/Sivon/blob/1.21.1/LICENSE); the bundled music and sound files are third-party audio, **not** licensed by this project and not covered by CC0 — see [NOTICE](https://github.com/Huziyang520/Sivon/blob/1.21.1/NOTICE).
 
 ### Links
 
@@ -49,7 +49,7 @@ This is a free, open-source fan work. Its source code is released under [CC0 1.0
 
 冰块音效替换可以关掉：
 
-- 安装 **Cloth Config** → 打开配置界面（Fabric 走 **Mod Menu**，NeoForge 走模组列表）→ **KeenLib → 司凤 → 替换冰块音效**。
+- 安装 **Cloth Config** → 打开配置界面（NeoForge 走模组列表）→ **KeenLib → 司凤 → 替换冰块音效**。
 - 设置保存在 `config/sivon.json`，改完立即生效，不用重启。
 
 ### 前置
@@ -59,7 +59,7 @@ This is a free, open-source fan work. Its source code is released under [CC0 1.0
 
 ### 许可证
 
-本项目为免费开源的二创作品，源码以 [CC0 1.0 Universal](https://github.com/Huziyang520/Sivon/blob/26.X/LICENSE) 发布；随包的音乐与音效属第三方音频，**不**由本项目授权，也不在 CC0 范围内，详见 [NOTICE](https://github.com/Huziyang520/Sivon/blob/26.X/NOTICE)。
+本项目为免费开源的二创作品，源码以 [CC0 1.0 Universal](https://github.com/Huziyang520/Sivon/blob/1.21.1/LICENSE) 发布；随包的音乐与音效属第三方音频，**不**由本项目授权，也不在 CC0 范围内，详见 [NOTICE](https://github.com/Huziyang520/Sivon/blob/1.21.1/NOTICE)。
 
 ### 链接
 
