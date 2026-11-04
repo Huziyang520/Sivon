@@ -1,0 +1,41 @@
+plugins {
+    id 'multiloader-common'
+    id 'net.neoforged.moddev'
+}
+
+sourceSets.main.java.setSrcDirs([rootProject.file('../../common/src/main/java'),
+                                 rootProject.file('../../neoforge/src/main/java')])
+sourceSets.main.resources.setSrcDirs([rootProject.file('../../common/src/main/resources'),
+                                      rootProject.file('../../neoforge/src/main/resources')])
+
+neoForge {
+    version = project.neoforge_version
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    compileOnly(rootProject.files("../../libs/keenlib-${keenlib_version}-neoforge-${target_label}.jar"))
+    compileOnly(rootProject.files("../../libs/discapi-${discapi_version}-neoforge-${target_label}.jar"))
+}
+
+def loaderAttribute = Attribute.of('io.github.mcgradleconventions.loader', String)
+['apiElements', 'runtimeElements', 'sourcesElements', 'javadocElements'].each { variant ->
+    configurations.matching { it.name == variant }.configureEach {
+        attributes {
+            attribute(loaderAttribute, 'neoforge')
+        }
+    }
+}
+sourceSets.configureEach {
+    [it.compileClasspathConfigurationName, it.runtimeClasspathConfigurationName].each { variant ->
+        configurations.matching { it.name == variant }.configureEach {
+            attributes {
+                attribute(loaderAttribute, 'neoforge')
+            }
+        }
+    }
+}

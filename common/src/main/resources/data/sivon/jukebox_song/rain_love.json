@@ -1,0 +1,8 @@
+{
+  "comparator_output": 9,
+  "description": {
+    "translate": "jukebox_song.sivon.rain_love"
+  },
+  "length_in_seconds": 139.86,
+  "sound_event": "sivon:music_disc.rain_love"
+}

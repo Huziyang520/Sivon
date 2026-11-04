@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.huziyang520.sivon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    ${block_mixin}"MixinLevel"
+  ],
+  "client": [
+    "MixinAbstractSoundInstance"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 12,
+  "description": {
+    "translate": "jukebox_song.sivon.zombies_on_your_lawn"
+  },
+  "length_in_seconds": 204.12,
+  "sound_event": "sivon:music_disc.zombies_on_your_lawn"
+}

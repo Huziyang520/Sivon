@@ -1,0 +1,8 @@
+{
+  "comparator_output": 10,
+  "description": {
+    "translate": "jukebox_song.sivon.ice_love"
+  },
+  "length_in_seconds": 84.01,
+  "sound_event": "sivon:music_disc.ice_love"
+}

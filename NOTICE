@@ -1,0 +1,26 @@
+Sivon - third-party audio notice
+
+The audio files bundled in this jar are NOT covered by that license and are NOT licensed by this
+project:
+
+  assets/sivon/sounds/music/rain_love.ogg
+      "Rain Love (Sivon Edition)" - the original song and lyrics belong to their respective
+      authors, credited here as 古岛斐 / 杨丞琳. All rights remain with the original rights holders.
+
+  assets/sivon/sounds/music/ice_love.ogg
+      "Ice Love" - published by 六伯陆拾六 on Bilibili. All rights remain with the original author.
+
+  assets/sivon/sounds/music/lava_chicken.ogg
+      "Lava Chicken (Sivon Edition)" - a cover published by PathlessElm on Bilibili. All rights
+      remain with the original rights holders.
+
+  assets/sivon/sounds/music/zombies_on_your_lawn.ogg
+      "Zombies on Your Lawn (Sivon Edition)" - a cover published by PathlessElm on Bilibili. All
+      rights remain with the original rights holders.
+
+  assets/sivon/sounds/block/ice.ogg
+      Ice sound effect - source unknown. All rights remain with the original rights holder.
+
+These files are bundled so that the discs and the ice sound work out of the box. No commercial
+use is intended or granted. If you hold the rights to any of them and want it removed, open an
+issue at https://github.com/Huziyang520/Sivon/issues and it will be dropped from the next build.
