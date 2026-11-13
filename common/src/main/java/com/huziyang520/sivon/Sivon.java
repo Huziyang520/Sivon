@@ -61,16 +61,16 @@ public final class Sivon {
                     output.accept(new ItemStack(zombies.value()));
                 });
 
-        KeenLoot.add(BuiltInLootTables.ABANDONED_MINESHAFT, iceLove, 3, 1, 1);
-        KeenLoot.add(BuiltInLootTables.SIMPLE_DUNGEON, iceLove, 2, 1, 1);
-        KeenLoot.add(BuiltInLootTables.WOODLAND_MANSION, iceLove, 2, 1, 1);
-        KeenLoot.add(BuiltInLootTables.STRONGHOLD_CORRIDOR, rainLove, 2, 1, 1);
-        KeenLoot.add(BuiltInLootTables.SHIPWRECK_TREASURE, rainLove, 1, 1, 1);
-        KeenLoot.add(BuiltInLootTables.ANCIENT_CITY, rainLove, 1, 1, 1);
-        KeenLoot.add(BuiltInLootTables.NETHER_BRIDGE, lavaChicken, 2, 1, 1);
-        KeenLoot.add(BuiltInLootTables.BASTION_TREASURE, lavaChicken, 1, 1, 1);
-        KeenLoot.add(BuiltInLootTables.PILLAGER_OUTPOST, zombies, 2, 1, 1);
-        KeenLoot.add(BuiltInLootTables.BURIED_TREASURE, zombies, 1, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.ABANDONED_MINESHAFT, iceLove, 9.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.SIMPLE_DUNGEON, iceLove, 6.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.WOODLAND_MANSION, iceLove, 6.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.STRONGHOLD_CORRIDOR, rainLove, 6.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.SHIPWRECK_TREASURE, rainLove, 3.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.ANCIENT_CITY, rainLove, 3.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.NETHER_BRIDGE, lavaChicken, 6.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.BASTION_TREASURE, lavaChicken, 3.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.PILLAGER_OUTPOST, zombies, 6.0F, 1, 1);
+        KeenLoot.addChance(BuiltInLootTables.BURIED_TREASURE, zombies, 3.0F, 1, 1);
     }
 
     public static SoundEvent iceSound() {
